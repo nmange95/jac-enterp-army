@@ -1,0 +1,54 @@
+.About {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(0, 0, 0);
+   padding: 50px;
+
+}
+
+.About-header {
+   font-size: 80px;
+   color: #ffffff;
+   background-image: url('pages/Images/star.png');
+   background-repeat: no-repeat;
+   background-position: -1cqmax;
+   background-size: 7cqmin;
+   padding-left: 1cm;
+
+}
+
+.group-container {
+   display: flex;
+   padding: 10px;
+}
+
+.group-box {
+   box-shadow: 0 4px 8px hsla(59, 93%, 46%, 0.993);
+   border-radius: 10px;
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   width: 250px;
+   padding: 20px;
+   margin: 20px;
+}
+
+.names {
+   font-family: monospace;
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.team-image {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+}
+
+@media (max-width: 600px) {
+   .group-container {
+      flex-direction: column;
+   }
+
+
+}

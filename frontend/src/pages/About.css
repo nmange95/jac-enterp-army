@@ -1,0 +1,48 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+ }
+ 
+ .About-header {
+  font-size: 70px;
+  margin-bottom: 60px;
+background-image: url('pages/picture/star.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 1cap;
+ }
+ 
+ .group-container {
+  display: flex;
+  padding: 10px;
+ }
+ 
+ .group-box {
+  box-shadow: 0 4px 8px rgba(226, 223, 8, 0.993);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+ }
+ 
+ .names {
+  font-family: monospace;
+  font-size: 24px;
+  margin-bottom: 10px;
+ }
+ 
+ .team-image {
+  width: 150px;
+  height: 150px;
+ }
+ @media (max-width: 600px) {
+  .group-container {
+     flex-direction: column;
+  }
+ 
+ }
